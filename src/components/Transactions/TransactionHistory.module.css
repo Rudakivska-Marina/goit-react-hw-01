@@ -1,0 +1,24 @@
+.table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.thtd {
+  border: 2px solid black;
+  width: 280px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px 0 5px;
+}
+
+.thead {
+  background-color: #3c3c3c;
+  color: aliceblue;
+}
+
+.tbody:nth-child(2n + 1) {
+  background-color: #d3d3d3;
+}
